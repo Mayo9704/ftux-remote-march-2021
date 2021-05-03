@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="521px" height="181px" viewBox="0 0 521 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2 Copy 3</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v02_logo_pirineos_gourmet" transform="translate(-1000.000000, -2301.000000)">
+            <g id="Group-2-Copy-3" transform="translate(1001.000000, 2305.000000)">
+                <text id="Gourmet-Copy-6" font-family="Sacramento-Regular, Sacramento" font-size="68.53" font-weight="normal" fill="#D3EEE1">
+                    <tspan x="192.5" y="135.568873">Gourmet</tspan>
+                </text>
+                <text id="PIRINEOS-Copy-15" font-family="Futura-Medium, Futura" font-size="58.52" font-weight="400" letter-spacing="7.04244416" fill="#D3EEE1">
+                    <tspan x="192.5" y="73.2788732">PIRINEOS</tspan>
+                </text>
+                <g id="Group-Copy" transform="translate(90.453156, 86.854824) rotate(-12.000000) translate(-90.453156, -86.854824) translate(13.453156, 15.354824)">
+                    <path d="M42.0088232,46.2835507 L74.8795358,91.9891722 L57.2623503,90.6151825 L56.8864401,130.049814 C32.486091,117.508044 19.4175695,108.396923 17.6808756,102.716454 C15.9441817,97.035984 24.0534976,78.2250163 42.0088232,46.2835507 Z" id="Path-2" fill="#D3EEE1" transform="translate(46.165333, 88.166682) rotate(29.000000) translate(-46.165333, -88.166682) "></path>
+                    <g id="Group" transform="translate(77.540111, 72.633788) rotate(20.000000) translate(-77.540111, -72.633788) translate(19.540111, 28.133788)" stroke="#D3EEE1" stroke-width="8.47">
+                        <path d="M48.7983512,4.84139807 L58.0359023,4.83627994 C70.5419252,4.82935088 80.6856771,14.9618685 80.6926061,27.4678915 C80.6926157,27.4851298 80.6926056,27.5023682 80.6925757,27.5196065 L80.6925141,27.5552616 C80.6708518,40.0785328 70.5163284,50.2211245 57.9930404,50.2280631 L46.9038028,50.2342072 L46.9038028,50.2342072 L48.7983512,4.84139807 Z" id="Rectangle-Copy" transform="translate(63.817819, 27.528956) rotate(-54.000000) translate(-63.817819, -27.528956) "></path>
+                        <polyline id="Path-Copy" points="115.707534 88.9732846 36.9663059 25.9115075 -2.89235181e-13 77.3757308"></polyline>
+                    </g>
+                    <path d="M81.9290845,142.852239 C99.4582433,142.852239 115.509526,136.511658 127.923464,125.994414 C135.933588,119.208137 142.429301,110.682903 146.83046,101.000051 C150.926477,91.9885316 153.20831,81.97435 153.20831,71.4261194 C153.20831,31.9785629 121.295514,-1.40062184e-12 81.9290845,-1.40062184e-12 C42.5626554,-1.40062184e-12 10.6498592,31.9785629 10.6498592,71.4261194 C10.6498592,81.9516917 12.9218997,91.9455068 17.0013389,100.941965 C21.3944791,110.630234 27.8836767,119.161859 35.8886454,125.955359 C48.3089275,136.495959 64.3782382,142.852239 81.9290845,142.852239 Z" id="Oval-Copy" stroke="#D3EEE1" stroke-width="8.47" transform="translate(81.929085, 71.426119) scale(-1, 1) translate(-81.929085, -71.426119) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
