@@ -1,34 +1,81 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Krona One', sans-serif;
+}
+
 p{
+    font-family: 'Montserrat', sans-serif;
     color: goldenrod;
     /* font-size: 21px; */
 
 }
+
 h1{
-    font-size: 4rem;
+    font-size: 6rem;
+    color: whitesmoke;
+    margin-block: 0.2em;
 }
+
 h2{
     font-size: 3rem;
 }
+
 h3{
     font-size: 1,5rem;
 }
+
 h4{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-block: 0.5em;
+
 }
+
 h5{
     font-size: 0,8rem;
 }
+
 h6{
     font-size: 0.6rem;
 }
+
 section{
     
 }
 .home-article{
-    border: 10px solid whitesmoke;
-    border-radius: 40px;
+    /*border: 10px solid whitesmoke;*/
+    border-radius: 16px;
     background-color: whitesmoke;
+    width: 200px;
+    padding: 20px;
 }
+
+.img-article{
+    width: 100%;
+}
+
 #hero{
-    background-color: tomato;
+    /*background-color: tomato;*/
+    background-image: url('../img/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg');
+    background-size: cover;
+    text-align: center;
+    /*height: 500px;*/
+    height: 60vh;
+}
+
+.icon-feature{
+    font-size: 4em;
+    color: darkgreen;
+}
+
+footer{
+    height: 350px;
+    color: honeydew;
+
 }
