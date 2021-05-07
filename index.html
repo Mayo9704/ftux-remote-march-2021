@@ -22,18 +22,19 @@
 </head>
 <body>
     <!--header start-->
-    <header style="border: 1px solid rgb(253, 7, 7);">
+    <header class="container">
         <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
         <nav>
-            <a href="#">about</a>
-            <a href="#">Features</a>
-            <a href="#">contact</a>
+            <a href="#" class="menu">about</a>
+            <a href="#" class="menu">Features</a>
+            <a href="#" class="menu">contact</a>
+            <a href="#" class="button-link">downloand cv</a>
         </nav>
     </header>
     <!--header ends here-->
 
     <!--hero starts here-->
-    <section id="hero">
+    <section id="hero" class="container">
         <h1>heading</h1>
         <p>paragraph</p>
         <button>button</button>
@@ -41,13 +42,13 @@
     <!--hero ends here-->
 
     <!--blog starts here-->
-    <section>
+    <section id="articles" class="container">
         <article class= "home-article">
             <img src="/img/daniel-lincoln-ho7ZZF2ebcU-unsplash.jpg" alt="picture for the article about coffe" class="img-article">
             <h3>title-1</h3>
             <p>description</p>
-                <div>
-                    <img src="/img/avatar_01.png" alt="Photo of author number 1"> Avatar photo
+                <div class="container autor-container">
+                    <img src="/img/avatar_01.png" alt="Photo of author number 1" class="author-image">
                     <p>Autor name</p>
                 </div>
         </article>
@@ -56,8 +57,8 @@
             <img src="img/max-d-photography-zwQTkDfzWS0-unsplash.jpg" alt="picture for the article related again with coffe" class="img-article">
             <h3>title-2</h3>
             <p>description</p>
-                <div>
-                    <img src="/img/avatar_02.png" alt="photo of author number 2"> Avatar photo
+                <div class="container autor-container">
+                    <img src="/img/avatar_02.png" alt="photo of author number 2" class="author-image">
                     <p>Autor name</p>
                 </div>
         </article>
@@ -66,8 +67,8 @@
             <img src="img/najib-kalil-ys0rBJK-k6Q-unsplash.jpg" alt="picture, again, related with coffe" class="img-article">
             <h3>title-3</h3>
             <p>description</p>
-                <div>
-                    <img src="/img/avatar_03.png" alt="photo of author number 3"> Avatar photo
+                <div class="container autor-container">
+                    <img src="/img/avatar_03.png" alt="photo of author number 3" class="author-image">
                     <p>Autor name</p>
                 </div>
         </article>
@@ -75,9 +76,9 @@
     <!--blog ends here-->
 
     <!--features starts here-->
-    <section>
+    <section id="features" class="container">
        <!--features 1 starts here-->
-        <div>
+        <div class="container feature-card">
             <span class="icon-feature">
             <i class="fas fa-air-freshener"></i>
             </span>
@@ -88,7 +89,7 @@
         </div>
 
         <!--features 2 starts here-->
-        <div>
+        <div class="container feature-card">
             <span class="icon-feature">
             <i class="fas fa-atom"></i>
             </span>
@@ -99,7 +100,7 @@
         </div>
 
         <!--features 3 starts here-->
-        <div>
+        <div class="container feature-card">
             <span class="icon-feature">
             <i class="fas fa-fish"></i>
             </span>
@@ -110,7 +111,7 @@
         </div>
 
          <!--features 4 starts here-->
-        <div>
+        <div class="container feature-card">
             <span class="icon-feature
             ">
             <i class="fas fa-peace"></i>
@@ -124,21 +125,52 @@
         <!--features ends here-->
 
     <!--contact form starts here-->
-    <section>
-        <h3>contact - title heading 3</h3>
-        <div>
-            <form action="">
-                <input type="text"> Form name <br><br>
-                <input type="email"> Email<br><br>
-                <textarea name="" id="" cols="50" rows="10"> Send us a pretty message</textarea><br><br>
-                <input type="submit" value="Thanks for sending">
+    <section class="container" id="contact">
+        <div class="contact-30 container">
+        <h3>contact</h3>
+        </div>
+        <div class="contact-70">
+            <form action="#">
+                <label for="name" aria-placeholder="I'm your daddy">Name</label> <br>
+                <input id="name">
+
+                <br><br>
+
+                <label for="email" aria-placeholder="kulikitaca@mail.com">Write your email</label><br>
+                <input type="email">
+
+                <br><br>
+
+                <label for="message">write your message</label> <br>
+                <textarea id="message" cols="50" rows="10" placeholder="Send us love and only love"></textarea>
+
+                <br><br>
+
+                <input type="checkbox" id="terms" checked>
+                <label for="terms">I accept all the therms and chocolat cookies, then maybe, I will not complain</label>
+
+                <br><br>
+
+                <input type="submit" value="send a pinchi message"> <br>
+
+                <!-- <br><br>
+
+                <input type="date">
+
+                <br><br>
+
+                <input type="password">
+
+                <br><br>
+
+                <input type=""> -->
             </form>
         </div>
     </section>
     <!--contact form starts here-->
 
     <!--footer starts here-->
-    <footer>
+    <footer class="container" >
         <div>
             <a href="#">about</a>
             <a href="#" target="#">feature</a>
@@ -146,21 +178,21 @@
             <a href="tel:+34644558542">phone</a>
         </div>
         <div>
-            <h5>Follow us</h5>
+            <h4>Follow us</h4>
             <a href="https://www.instagram.com" target="_blank">
-                <i class="fab fa-instagram fa-2x"></i>
+                <span class="social-icon"><i class="fab fa-instagram fa-2x"></i></span>
             </a>
             <a href="https://www.facebook.com" target="_blank">
-                <i class="fab fa-facebook fa-2x"></i>
+                <span class="social-icon"><i class="fab fa-facebook fa-2x"></i></span>
             </a>
             <a href="https://www.twitter.com" target="_blank">
-                <i class="fab fa-twitter fa-2x"></i>
+                <span class="social-icon"><i class="fab fa-twitter fa-2x"></i></span>
             </a>
             <a href="https://www.twitter.com" target="_blank">
-                <i class="fab fa-medium fa-2x"></i>
+                <span class="social-icon"><i class="fab fa-medium fa-2x"></i></span>
             </a>
             <a href="https://www.twitter.com" target="_blank">
-                <i class="fab fa-behance fa-2x"></i>
+                <span class="social-icon"><i class="fab fa-behance fa-2x"></i></span>
             </a>
         </div>
 
